@@ -1,0 +1,29 @@
+{
+  "name": "alura-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/socket-back.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anacoliveiras/alura-socket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anacoliveiras/alura-socket/issues"
+  },
+  "homepage": "https://github.com/anacoliveiras/alura-socket#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
